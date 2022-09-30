@@ -1,0 +1,74 @@
+a{
+    font-size: 30px;
+}
+.nav-item{
+    width: 200px;
+}
+
+.content-wel{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.menu-item{
+    position: absolute;
+    top: 7%;
+    margin-left: 6%;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.main-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.dropdown-menu{
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+/*----------- body content --------*/
+
+
+
+
+
+.d-block{
+    height: 635px;
+    width: 100%;
+    background-size: cover;
+}
+
+/*------------ slide-carousel--------------- */
+
+.slide-carousel{
+    height: 450px;
+    margin-top: 4%;
+}
+.carousel-inner .carousel-inner .carousel .slide {
+    height: 30%;
+    
+    background-size: cover;
+
+}
+
+/*------------ foot--------------- */
+
+i{
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+
+.foot{
+    margin-top: 35%%;
+    margin-left: ;
+}

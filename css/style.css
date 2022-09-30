@@ -1,0 +1,85 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../img/nha-ben-ho.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 15s infinite ease-out;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.content h1 span{
+    color: #111;
+}
+.content a{
+    color: white;
+    border: 1px solid #fff;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.content a:hover{
+    background: white;
+    color: black;
+}
+@keyframes change{
+    0%
+    {
+        background-color: url("../img/phu-chanc-cau1.jpg");
+    }
+    25%
+    {
+        background-image: url("../img/eakao6.jpg");
+    }
+    50%
+    {
+        background-image: url("../img/phu-boho1.jpg");
+    }
+    75%
+    {
+        background-image: url("../img/cho-1.jpg");
+    }
+    100%
+    {
+
+        background-image: url("../img/duong-lang.jpg");
+    }
+    
+}
+
+/*** menu ***/
+
+.menu-item{
+    text-align: center;
+    justify-content: center;
+}
+
+
+#btn{
+    background-color: none
+    ;
+}

@@ -1,0 +1,299 @@
+/*---- head -*/
+
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.content h1 span{
+    color: #111;
+}
+.content a{
+    color: white;
+    border: 1px solid #fff;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.content a:hover{
+    background: white;
+    color: black;
+}
+
+.menu-item{
+    text-align: center;
+    justify-content: center;
+}
+
+
+a{
+    font-size: 30px;
+}
+.nav-item{
+    width: 200px;
+}
+
+.content-wel{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+.menu-item{
+    position: absolute;
+    top: 7%;
+    
+}
+
+.main-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.dropdown-menu{
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: black;
+}
+/*----------- body content --------*/
+.body-content{
+    margin-top: 12%;
+    
+}
+
+li{
+    list-style: none;
+}
+p{
+    color: white;
+}
+
+/*---- img -*/
+
+/*---- img-row-1 -*/
+
+.list-img1{
+    float: left;
+
+}
+.img-row-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+
+}
+
+.list-img1-1:hover{
+    height: 350px;
+    width: 450px;
+    transition: 0.4s;
+    margin: 0 auto;
+}
+
+.list-img1-2:hover{
+    height: 350px;
+    width: 450px;
+    transition: 0.4s;
+    margin-right: 20%;
+
+}
+.list-img1-3:hover{
+    height: 350px;
+    width: 450px;
+    transition: 0.4s;
+    margin-left: -10%;
+
+}
+.list-img1-4:hover{
+    height: 350px;
+    width: 450px;
+    transition: 0.4s;
+    margin-left: -30%;
+}
+
+
+.img-item1-row1{
+    background-image: url(../img/img1/DALAT-EM/DSC_1734.JPG);
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+    border-radius: 20px;
+    transition: 1s;
+    float: left;
+}
+
+
+.img-item2-row1{
+    background-image: url(../img/img1/DALAT-EM/DSC_1792.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+    border-radius: 20px;
+    transition: 1s;
+    float: left;
+}
+
+
+.img-item3-row1{
+    background-image: url(../img/img1/DALAT-EM/DSC_1573.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+    border-radius: 20px;
+    transition: 1s;
+    float: left;
+}
+.img-item4-row1{
+    background-image: url(../img/img1/DALAT-EM/DSC_1629.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 250px;;
+    border-radius: 20px;
+    transition: 1s;
+    float: left;
+}
+
+
+
+
+
+/*---- img-row-2 -*/
+
+.list-img2{
+    float: left;
+
+}
+.img-row-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+.list-img2-1:hover{
+    height: 350px;
+    width: 450px;
+    transition: 0.4s;
+    margin-top: -30%;
+    margin-right: 10%;
+}
+
+.list-img2-2:hover{
+    height: 350px;
+    width: 450px;
+    transition: 0.4s;
+    margin-right: 20%;
+    margin-left: -15%;
+    margin-top: -30%;
+
+
+
+}
+.list-img2-3:hover{
+    height: 350px;
+    width: 450px;
+    transition: 0.4s;
+    margin-left: -10%;
+    margin-top: -30%;
+
+
+
+
+}
+.list-img2-4:hover{
+    height: 350px;
+    width: 450px;
+    transition: 0.4s;
+    margin-left: -30%;
+    margin-top: -30%;
+
+}
+
+
+.img-item1-row2{
+    background-image: url(../img/img1/DALAT-EM/DSC_1461.JPG);
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+    border-radius: 20px;
+    transition: 1s;
+    float: left;
+}
+
+
+.img-item2-row2{
+    background-image: url(../img/img1/DALAT-EM/DSC_1583.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+    border-radius: 20px;
+    transition: 1s;
+    float: left;
+}
+
+
+.img-item3-row2{
+    background-image: url(../img/img1/DALAT-EM/DSC_1578.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+    border-radius: 20px;
+    transition: 1s;
+    float: left;
+}
+.img-item4-row2{
+    background-image: url(../img/img1/DALAT-EM/DSC_1575.jpg);
+    background-size: cover;
+    height: 150px;
+    width: 250px;;
+    border-radius: 20px;
+    transition: 1s;
+    float: left;
+}
+
+
+
+/*------------ foot--------------- */
+
+i{
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+
+.foot{
+    margin-top: 4.5%;
+}
